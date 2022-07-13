@@ -44,11 +44,3 @@ document.addEventListener('keypress', function(e){
 let acessarIndex = id('button');
 
 acessarIndex.addEventListener('click', entrar, false);
-
-
-
-
-
-
-
-

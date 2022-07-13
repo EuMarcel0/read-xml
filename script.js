@@ -154,6 +154,9 @@ function mostrar() {
                     icmsStFloa = parseFloat(icmsSt)
 
                     let redIcms = item.pRedBC
+                    if(redIcms === null){
+                        redIcms = '0.00';
+                    }
                     redIcms = parseFloat(redIcms)
 
                     let pFcp = item.pFCP;
@@ -208,6 +211,9 @@ function mostrar() {
                     }
 
                     let pMva = item.pMVAST;
+                    if(pMva === null){
+                        pMva = '0.00'
+                    }
                     pMvaToFloar = parseFloat(pMva);
 
 
